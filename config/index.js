@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     // Various Dev Server settings
     env: require('./dev.env'),//测试环境使用的打包配置
-    host: '192.168.18.97',//外部端口访问--仅在本机的测试环境如此设置，已供外部测试
+    //host: '',//外部端口访问--仅在本机的测试环境如此设置，已供外部测试
     port: 9100, // 当前vue项目运口
     autoOpenBrowser: false,
     errorOverlay: true,

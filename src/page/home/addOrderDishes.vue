@@ -12,7 +12,7 @@
       </el-form-item>
 
       <el-form-item label="菜品名称" prop="dish">
-        <el-input v-model="order_form.dish" placeholder="请输入菜品">
+        <el-input v-model="order_form.dish" placeholder="请输入菜品" style="width: 50%">
         </el-input>
       </el-form-item>
 
